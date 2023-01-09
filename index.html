@@ -1,9 +1,103 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <title>My First Page</title>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="10">
+        <link rel="icon" type="image/png" href="images/logo.png">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+        <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Source+Code+Pro:wght@300&display=swap'); </style>
+        <title>Mandy Zhou</title>
+    </head>
+
     <body>
-        <main></main>
-        <footer></footer>
+        <div class="content">
+            
+            <!-- Home Page -->
+            <div class="home-container">
+                <div class="home-text">
+                    <h1>Hi, I'm Mandy.</h1>
+                    <br>
+                    <p class="quick-bio">
+                        I make my dreams come to life through a computer. <br>
+                        Student. Learner. <br>
+                        Enthusiast. <br>
+                        Ambitious. <br>
+                    </p>
+                </div>    
+            </div>
+
+            <!-- About Me Page -->
+            <div class="about-me-container">
+                <h1 id="about-me">About Me</h1>
+                <div class="about-me-info">
+                    <img src="./images/circle-pfp.png" alt="Mandy Zhou Profile Picture">
+                    <p>
+                        Working behind the counter at my family's Chinese restaurant,  
+                        a hub of customers coming in and out to enjoy a hot meal... <br><br>
+                        I had met a customer who talked about his incredible passion for the mathematical universe and his job "writing code",
+                        while enjoying a Shrimp Egg Foo Young. <br><br>
+                        I had asked, "What is 'writing code'?" <br><br>
+                        
+                        Unbeknownst to us and five years later, <br>
+                        I'm pursuing my B.S. in Computer Science from Arizona State University graduating in May 2024. <br><br>
+    
+                        I currently intern at Microchip Technology as an Engineer Intern, learning about the semiconductor industry. <br>
+                        During the schoolyear, I am a Treasurer for Women in Science and Engineering at ASU. <br><br>
+                        
+                        As a first-generation college student, I'm passionate about sharing my goals and experiences <br>
+                        to encourage other women and underrepresented groups by shining a light on STEM, to dream big, and to be present.<br><br>
+                    
+                        Now, I'm taking my journey across the world - attending conferences such as TechUp For Women NYC and Harvard WECode,
+                        with a goal to make my way onto the speaker podium.<br>
+                    </p>    
+                </div>
+            </div>
+    
+            <!-- Contact Page -->
+            <div class="contact-container">
+                <h1 id="contact">Contact Me</h1>
+                <br>
+                <h3>Email<br></h3>
+                <a class="email" href="mailto:mzhou61@asu.edu">mzhou61@asu.edu</a>
+                <br><br>
+                <div class="media-logo-container">
+                    <h3>Linkedin</h3>
+                    <a href="https://www.linkedin.com/in/mandyzhou523/">
+                        <img class="media-logo" src="./images/linkedin_logo.svg" alt="Linkedin">
+                    </a>    
+                    <br><br>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/zhoumandy">
+                        <img class="media-logo" src="./images/github_logo.png" alt="GitHub">
+                    </a>            
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-container"> 
+            <nav class="navbar">
+                <div class="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-me" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./images/MandyZhou_Resume.pdf" class="nav-link">Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <script src="./js/script.js"></script>
     </body>
-</head>
+</html>
