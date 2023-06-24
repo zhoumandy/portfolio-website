@@ -66,6 +66,72 @@ body {
     width: 50px;
 }
 
+/* =========================== Projects ===========================*/
+
+.projects-container {
+    margin: 100px;
+}
+
+.project-title {
+    font-weight: bold;
+    color: darkolivegreen;
+}
+
+.project-title:hover{
+    color: pink;
+    transition: color 0.3s;
+}
+
+/* Countdown Project ==============================================*/
+
+.countdown-title {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.coming-soon {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+}
+
+.countdown-day,
+.countdown-hour,
+.countdown-minute,
+.countdown-second {
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Countdown Project ==============================================*/
+
+.cookbook-title {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.cookbook {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cookbook-day,
+.cookbook-hour,
+.cookbook-minute,
+.cookbook-second {
+    font-size: 1rem;
+    text-align: center;
+}
+
 /* =========================== Navigation Bar ===========================*/
 
 .nav-container {
